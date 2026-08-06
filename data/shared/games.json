@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tmnf",
+    "name": "TrackMania Nations Forever",
+    "short": "TMNF",
+    "icon": "/games/tmnf.png"
+  },
+  {
+    "id": "tmuf",
+    "name": "TrackMania United Forever",
+    "short": "TMUF",
+    "icon": "/games/tmuf.png"
+  },
+  {
+    "id": "tm2",
+    "name": "TrackMania²",
+    "short": "TM2",
+    "icon": "/games/tm2.png"
+  },
+  {
+    "id": "tmo",
+    "name": "TrackMania Original",
+    "short": "TMO",
+    "icon": "/games/tmo.png"
+  },
+  {
+    "id": "tms",
+    "name": "TrackMania Sunrise",
+    "short": "TMS",
+    "icon": "/games/tms.png"
+  },
+  {
+    "id": "eswc",
+    "name": "TrackMania Nations ESWC",
+    "short": "ESWC",
+    "icon": "/games/eswc.png"
+  },
+  {
+    "id": "remakes",
+    "name": "TMN Remakes",
+    "short": "Remakes",
+    "icon": "/games/remakes.png"
+  },
+  {
+    "id": "startrack",
+    "name": "StarTrack",
+    "short": "StarTrack",
+    "icon": "/games/startrack.png"
+  },
+  {
+    "id": "demo-beta",
+    "name": "Demo / Beta",
+    "short": "Demo",
+    "icon": "/games/demo-beta.png"
+  }
+]

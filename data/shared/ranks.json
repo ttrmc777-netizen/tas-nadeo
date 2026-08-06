@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Novice",
+    "color": "#78716c"
+  },
+  {
+    "name": "Apprentice",
+    "color": "#9ca3af"
+  },
+  {
+    "name": "Adept",
+    "color": "#f97316"
+  },
+  {
+    "name": "Expert",
+    "color": "#22c55e"
+  },
+  {
+    "name": "Elite",
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Master",
+    "color": "#a855f7"
+  },
+  {
+    "name": "Mythic",
+    "color": "#facc15"
+  }
+]
