@@ -1,5 +1,5 @@
 import { GoogleSheet } from "./types";
-import { ImportedTrack } from "./parseTracks";
+import { Track } from "@/types/track";
 import { HistoryCategory } from "@/types/history";
 
 function formatGoogleDate(value: string): string {
@@ -18,7 +18,7 @@ function formatGoogleDate(value: string): string {
 
 export function parseHistory(
   sheet: GoogleSheet,
-  tracks: ImportedTrack[]
+  tracks: Track[]
 ): Record<string, HistoryCategory[]> {
   const result: Record<string, HistoryCategory[]> = {};
 
