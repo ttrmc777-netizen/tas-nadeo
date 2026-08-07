@@ -1,57 +1,91 @@
+"use client";
+
 import Link from "next/link";
 import { ReactNode } from "react";
+import Image from "next/image";
 
 type Props = {
   children: ReactNode;
 };
 
+const links = [
+  { href: "/", label: "HOME" },
+  { href: "/games", label: "GAMES" },
+  { href: "/leaderboard", label: "LEADERBOARD" },
+  { href: "/tasers", label: "TASERS" },
+  { href: "/highlights", label: "HIGHLIGHTS" },
+];
+
 export default function MainLayout({ children }: Props) {
   return (
-    <main className="relative min-h-screen text-white">
+    <>
+      <header className="header">
 
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur-xl">
+        <div className="header-inner">
 
-        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-8">
+          <button className="menu-button">
+            ☰
+          </button>
 
           <Link
             href="/"
-            className="title-font text-5xl tracking-[0.18em] text-cyan-300 transition hover:text-white"
+            className="header-logo"
           >
-            TAS NADEO
+            TAS-Nadeo
           </Link>
 
-          <nav className="menu-font flex items-center gap-8 text-2xl uppercase tracking-widest">
+          <nav className="header-nav">
 
-            <Link href="/" className="hover:text-cyan-300 transition">
-              Home
-            </Link>
+            {links.map((link) => (
 
-            <Link href="/games" className="hover:text-cyan-300 transition">
-              Games
-            </Link>
+              <Link
+                key={link.href}
+                href={link.href}
+                className="header-link"
+              >
+                {link.label}
+              </Link>
 
-            <Link href="/leaderboard" className="hover:text-cyan-300 transition">
-              Leaderboard
-            </Link>
-
-            <Link href="/tasers" className="hover:text-cyan-300 transition">
-              TASers
-            </Link>
-
-            <Link href="/highlights" className="hover:text-cyan-300 transition">
-              Highlights
-            </Link>
+            ))}
 
           </nav>
+
+          <div className="header-right">
+
+            <button className="login-button">
+
+             <svg
+               xmlns="http://www.w3.org/2000/svg"
+               width="18"
+               height="18"
+               viewBox="0 0 24 24"
+               fill="currentColor"
+               >
+               <path d="M12 2a10 10 0 100 20 10 10 0 000-20Zm1.1 5.7v4.2l3.3 2-.8 1.3-4-2.4V7.7h1.5Z"/>
+             </svg>
+
+             Login
+
+            </button>
+
+            <button className="discord-button">
+             <Image
+              src="/images/icons/discord.png"
+              alt="Discord"
+              width={40}
+              height={40}
+             />
+            </button>
+
+          </div>
 
         </div>
 
       </header>
 
-      <div className="mx-auto max-w-7xl px-8 py-10">
+      <main className="page-wrapper">
         {children}
-      </div>
-
-    </main>
+      </main>
+    </>
   );
 }

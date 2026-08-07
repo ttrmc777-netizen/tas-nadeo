@@ -1,18 +1,43 @@
-export default function Header() {
-  return (
-    <header className="w-full border-b border-zinc-800 bg-black">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <h1 className="text-2xl font-bold text-white">
-          tas-nadeo
-        </h1>
+"use client";
 
-        <nav className="flex gap-6 text-sm text-zinc-300">
-          <a href="/">Home</a>
-          <a href="/games">Games</a>
-          <a href="/tasers">TASers</a>
-          <a href="/highlights">Highlights</a>
-        </nav>
-      </div>
-    </header>
+import { useEffect, useState } from "react";
+import MainLayout from "./MainLayout";
+
+export default function Header({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+
+      setScrolled(window.scrollY > 80);
+
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () =>
+      window.removeEventListener("scroll", handleScroll);
+
+  }, []);
+
+  return (
+
+    <div className={scrolled ? "header-small" : "header-large"}>
+
+      <MainLayout>
+
+        {children}
+
+      </MainLayout>
+
+    </div>
+
   );
+
 }

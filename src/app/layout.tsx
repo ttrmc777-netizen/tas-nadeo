@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
-
 import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
 
 import VideoBackground from "@/components/VideoBackground";
-
-import MainLayout from "@/components/layout/MainLayout";
-
-import Background from "@/components/Background";
+import Header from "@/components/layout/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,13 +33,13 @@ export default function RootLayout({
     >
       <body>
 
-<VideoBackground />
+        <VideoBackground />
 
-<MainLayout>
-  {children}
-</MainLayout>
+        <Header>
+          {children}
+        </Header>
 
-</body>
+      </body>
     </html>
   );
 }
