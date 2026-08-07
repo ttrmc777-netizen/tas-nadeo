@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Open",
+    "entries": [
+      {
+        "record": "31.32",
+        "authors": [
+          "charlie"
+        ],
+        "date": "2026-04-21"
+      },
+      {
+        "record": "34.56",
+        "authors": [
+          "Molosii",
+          "threadd"
+        ],
+        "date": "2023-08-02"
+      },
+      {
+        "record": "39.25",
+        "authors": [
+          "igntul",
+          "ins",
+          "Virtuoso"
+        ],
+        "date": "2021-09-14"
+      },
+      {
+        "record": "43.45",
+        "authors": [
+          "Miku",
+          "mufattmf",
+          "Kimura",
+          "Thoman",
+          "xnferno"
+        ],
+        "date": "2026-01-01"
+      },
+      {
+        "record": "56.24",
+        "authors": [
+          "Niro",
+          "Kimura"
+        ],
+        "date": "2021-11-16"
+      },
+      {
+        "record": "11.75",
+        "authors": [
+          "Don Johnson"
+        ],
+        "date": "2024-08-21"
+      },
+      {
+        "record": "15.82",
+        "authors": [
+          "Alex",
+          "Molosii"
+        ],
+        "date": "2022-08-18"
+      },
+      {
+        "record": "17.07",
+        "authors": [
+          "Alex",
+          "Molosii"
+        ],
+        "date": "2022-02-11"
+      },
+      {
+        "record": "20.67",
+        "authors": [
+          "Alex",
+          "Molosii"
+        ],
+        "date": "2022-01-21"
+      },
+      {
+        "record": "26.93",
+        "authors": [
+          "Lukalyc",
+          "threadd"
+        ],
+        "date": "2024-03-05"
+      },
+      {
+        "record": "31.96",
+        "authors": [
+          "gingerroar",
+          "Kimura"
+        ],
+        "date": "2023-08-16"
+      },
+      {
+        "record": "32.33",
+        "authors": [
+          "gingerroar",
+          "DELETE_CLUB"
+        ],
+        "date": "2023-08-14"
+      },
+      {
+        "record": "32.47",
+        "authors": [
+          "gingerroar"
+        ],
+        "date": "2023-08-01"
+      },
+      {
+        "record": "34.22",
+        "authors": [
+          "threadd",
+          "Stuntlover",
+          "Alex",
+          "Kimura"
+        ],
+        "date": "2022-08-01"
+      },
+      {
+        "record": "38",
+        "authors": [
+          "ezmTAS"
+        ],
+        "date": "2025-06-20"
+      },
+      {
+        "record": "38.99",
+        "authors": [
+          "Alex",
+          "Trinity"
+        ],
+        "date": "2021-09-13"
+      },
+      {
+        "record": "45.68",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-06-03"
+      },
+      {
+        "record": "46.27",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-06-02"
+      }
+    ]
+  },
+  {
+    "name": "WR Route",
+    "entries": [
+      {
+        "record": "55.36",
+        "authors": [
+          "Thunder",
+          "hhh"
+        ],
+        "date": "2025-06-19"
+      },
+      {
+        "record": "55.61",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2021-08-20"
+      }
+    ]
+  },
+  {
+    "name": "RTA",
+    "entries": [
+      {
+        "record": "55.71",
+        "authors": [
+          "Almighty Hefest"
+        ],
+        "date": "2020-05-07"
+      },
+      {
+        "record": "24.93",
+        "authors": [
+          "Phip-Lounge"
+        ],
+        "date": "2025-11-04"
+      },
+      {
+        "record": "25.07",
+        "authors": [
+          "Wave.Ðemon"
+        ],
+        "date": "2020-11-17"
+      },
+      {
+        "record": "47.33",
+        "authors": [
+          "Phip-Lounge"
+        ],
+        "date": "2026-01-12"
+      },
+      {
+        "record": "47.68",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2025-01-18"
+      }
+    ]
+  },
+  {
+    "name": "No Cut",
+    "entries": [
+      {
+        "record": "57.75",
+        "authors": [
+          "Thunder"
+        ],
+        "date": "2025-06-16"
+      },
+      {
+        "record": "25.05",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-05-31"
+      }
+    ]
+  },
+  {
+    "name": "RTA-NC",
+    "entries": [
+      {
+        "record": "57.89",
+        "authors": [
+          "»RtA«Katic"
+        ],
+        "date": "2021-06-04"
+      }
+    ]
+  },
+  {
+    "name": "NOseboost",
+    "entries": [
+      {
+        "record": "17.55",
+        "authors": [
+          "Oogy749"
+        ],
+        "date": "2026-04-21"
+      },
+      {
+        "record": "23.94",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-07-06"
+      }
+    ]
+  },
+  {
+    "name": "No Uber",
+    "entries": [
+      {
+        "record": "18.17",
+        "authors": [
+          "Oogy749"
+        ],
+        "date": "2026-04-21"
+      },
+      {
+        "record": "21.79",
+        "authors": [
+          "andi"
+        ],
+        "date": "2021-12-29"
+      },
+      {
+        "record": "23.36",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-07-06"
+      }
+    ]
+  }
+]

@@ -1,0 +1,397 @@
+[
+  {
+    "name": "Open",
+    "entries": [
+      {
+        "record": "5.5",
+        "authors": [
+          "Leva",
+          "igntuL"
+        ],
+        "date": "2026-05-26"
+      },
+      {
+        "record": "7.27",
+        "authors": [
+          "Thoman"
+        ],
+        "date": "2023-10-23"
+      },
+      {
+        "record": "7.33",
+        "authors": [
+          "Trinity",
+          "Don Johnson"
+        ],
+        "date": "2021-12-10"
+      },
+      {
+        "record": "7.8",
+        "authors": [
+          "Trinity",
+          "AurisTFG",
+          "Don Johnson"
+        ],
+        "date": "2021-09-09"
+      },
+      {
+        "record": "8.55",
+        "authors": [
+          "Trinity",
+          "AurisTFG"
+        ],
+        "date": "2021-09-04"
+      },
+      {
+        "record": "8.92",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-16"
+      },
+      {
+        "record": "9.83",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-05"
+      },
+      {
+        "record": "19",
+        "authors": [
+          "charlie"
+        ],
+        "date": "2026-01-28"
+      },
+      {
+        "record": "21.99",
+        "authors": [
+          "Thoman",
+          "CrizpyCheese",
+          "Molosii",
+          "DELETE_CLUB",
+          "Versital"
+        ],
+        "date": "2025-08-17"
+      },
+      {
+        "record": "22.1",
+        "authors": [
+          "Thoman",
+          "CrizpyCheese",
+          "Molosii",
+          "DELETE_CLUB"
+        ],
+        "date": "2023-04-14"
+      },
+      {
+        "record": "22.98",
+        "authors": [
+          "Thoman",
+          "CrizpyCheese",
+          "Molosii"
+        ],
+        "date": "2023-04-12"
+      },
+      {
+        "record": "24.05",
+        "authors": [
+          "mufattmf",
+          "Thoman"
+        ],
+        "date": "2025-02-24"
+      },
+      {
+        "record": "25.95",
+        "authors": [
+          "lukalyc"
+        ],
+        "date": "2024-01-15"
+      },
+      {
+        "record": "27.29",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2022-07-30"
+      },
+      {
+        "record": "38.56",
+        "authors": [
+          "Molosii"
+        ],
+        "date": "2022-02-21"
+      },
+      {
+        "record": "42.54",
+        "authors": [
+          "threadd",
+          "mufattmf"
+        ],
+        "date": "2024-01-07"
+      },
+      {
+        "record": "58.93",
+        "authors": [
+          "Molosii",
+          "Virtuoso",
+          "Dacuber"
+        ],
+        "date": "2022-05-27"
+      },
+      {
+        "record": "59.32",
+        "authors": [
+          "Molosii",
+          "Virtuoso"
+        ],
+        "date": "2022-03-03"
+      }
+    ]
+  },
+  {
+    "name": "No Cut",
+    "entries": [
+      {
+        "record": "5.73",
+        "authors": [
+          "Don Johnson"
+        ],
+        "date": "2024-12-05"
+      },
+      {
+        "record": "5.74",
+        "authors": [
+          "Kimura",
+          "Virtuoso"
+        ],
+        "date": "2022-08-01"
+      },
+      {
+        "record": "5.75",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2021-12-17"
+      },
+      {
+        "record": "5.76",
+        "authors": [
+          "Don Johnson"
+        ],
+        "date": "2021-11-03"
+      },
+      {
+        "record": "5.77",
+        "authors": [
+          "donadigo"
+        ],
+        "date": "2020-11-18"
+      },
+      {
+        "record": "12.38",
+        "authors": [
+          "CrizpyCheese"
+        ],
+        "date": "2024-04-12"
+      },
+      {
+        "record": "12.41",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2024-04-12"
+      },
+      {
+        "record": "12.42",
+        "authors": [
+          "Link"
+        ],
+        "date": "2021-06-04"
+      },
+      {
+        "record": "12.43",
+        "authors": [
+          "Link"
+        ],
+        "date": "2021-06-04"
+      },
+      {
+        "record": "12.47",
+        "authors": [
+          "donadigo"
+        ],
+        "date": "2020-06-29"
+      },
+      {
+        "record": "37.54",
+        "authors": [
+          "ezmTAS",
+          "Thunder"
+        ],
+        "date": "2025-08-22"
+      },
+      {
+        "record": "44.89",
+        "authors": [
+          "Thunder"
+        ],
+        "date": "2026-01-07"
+      }
+    ]
+  },
+  {
+    "name": "RTA",
+    "entries": [
+      {
+        "record": "5.78",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2022-03-01"
+      },
+      {
+        "record": "12.47",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2022-02-23"
+      },
+      {
+        "record": "34.61",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2024-08-17"
+      },
+      {
+        "record": "41.68",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2026-01-24"
+      }
+    ]
+  },
+  {
+    "name": "No Uber",
+    "entries": [
+      {
+        "record": "5.45",
+        "authors": [
+          "Thoman"
+        ],
+        "date": "2025-07-20"
+      },
+      {
+        "record": "6.37",
+        "authors": [
+          "vogtek"
+        ],
+        "date": "2024-05-21"
+      },
+      {
+        "record": "12.42",
+        "authors": [
+          "Winterly"
+        ],
+        "date": "2024-05-19"
+      }
+    ]
+  },
+  {
+    "name": "NOseboost",
+    "entries": [
+      {
+        "record": "28.38",
+        "authors": [
+          "CrizpyCheese",
+          "Molosii",
+          "Versital"
+        ],
+        "date": "2026-02-27"
+      },
+      {
+        "record": "29.53",
+        "authors": [
+          "CrizpyCheese",
+          "Molosii"
+        ],
+        "date": "2022-04-20"
+      },
+      {
+        "record": "44.48",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-09-09"
+      }
+    ]
+  },
+  {
+    "name": "WR Route",
+    "entries": [
+      {
+        "record": "34.06",
+        "authors": [
+          "ezmTAS"
+        ],
+        "date": "2024-04-19"
+      },
+      {
+        "record": "34.39",
+        "authors": [
+          "plastorex"
+        ],
+        "date": "2021-06-16"
+      },
+      {
+        "record": "34.65",
+        "authors": [
+          "plastorex"
+        ],
+        "date": "2021-06-12"
+      },
+      {
+        "record": "34.9",
+        "authors": [
+          "Speedy0407"
+        ],
+        "date": "2020-04-18"
+      },
+      {
+        "record": "40.46",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2021-09-24"
+      },
+      {
+        "record": "41.88",
+        "authors": [
+          "gbod"
+        ],
+        "date": "2021-06-03"
+      }
+    ]
+  },
+  {
+    "name": "RTA-NC",
+    "entries": [
+      {
+        "record": "37.66",
+        "authors": [
+          "Schmaniol"
+        ],
+        "date": "2021-09-03"
+      },
+      {
+        "record": "45.08",
+        "authors": [
+          "KarjeN"
+        ],
+        "date": "2024-11-14"
+      }
+    ]
+  }
+]

@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
+
 import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
 
+import VideoBackground from "@/components/VideoBackground";
+
 import MainLayout from "@/components/layout/MainLayout";
+
+import Background from "@/components/Background";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "tas-nadeo",
+  title: "TAS Nadeo",
   description: "TrackMania TAS Archive",
 };
 
@@ -27,11 +33,17 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full`}
     >
-      <body className="min-h-full bg-zinc-950 text-white">
-        <MainLayout>{children}</MainLayout>
-      </body>
+      <body>
+
+<VideoBackground />
+
+<MainLayout>
+  {children}
+</MainLayout>
+
+</body>
     </html>
   );
 }

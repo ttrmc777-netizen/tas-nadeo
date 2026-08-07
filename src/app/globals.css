@@ -1,26 +1,455 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===========================
+   Fonts
+=========================== */
+
+@font-face {
+  font-family: "Teko";
+  src: url("../fonts/teko.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Okta";
+  src: url("../fonts/oktaneue.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sakura";
+  src: url("../fonts/sakura.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kiwimaru";
+  src: url("../fonts/kiwimaru.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DOSVGA";
+  src: url("../fonts/DOSVGA.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* ===========================
+   Variables
+=========================== */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070707;
+  --foreground: #ffffff;
+
+  --bg: #0d0d0d;
+  --card: #181818;
+  --border: rgba(255,255,255,.08);
+
+  --cyan: #44e3ff;
+  --cyan2: #6ef7ff;
+
+  --font-title: "Okta", sans-serif;
+  --font-menu: "Teko", sans-serif;
+  --font-body: "Sakura", sans-serif;
+  --font-japanese: "Kiwimaru", sans-serif;
+  --font-mono: "DOSVGA", monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ===========================
+   Base
+=========================== */
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html,
+body{
+  width:100%;
+  min-height:100%;
+}
+
+body{
+  background:var(--bg);
+  color:var(--foreground);
+  font-family:var(--font-body);
+  overflow-x:hidden;
+}
+
+/* ===========================
+   Selection
+=========================== */
+
+::selection{
+  background:#33dfff;
+  color:#000;
+}
+
+/* ===========================
+   Scrollbar
+=========================== */
+
+::-webkit-scrollbar{
+  width:8px;
+}
+
+::-webkit-scrollbar-track{
+  background:#101010;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#29d9ff;
+  border-radius:999px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:#7cecff;
+}
+
+/* ===========================
+   Titles
+=========================== */
+
+.title-font{
+  font-family:var(--font-title);
+}
+
+.menu-font{
+  font-family:var(--font-menu);
+}
+
+.body-font{
+  font-family:var(--font-body);
+}
+
+.mono-font{
+  font-family:var(--font-mono);
+}
+
+.jp-font{
+  font-family:var(--font-japanese);
+}
+
+/* =========================
+   Animated Background
+========================= */
+
+.background-grid{
+
+background-image:
+
+linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+
+linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+
+background-size:80px 80px;
+
+animation:gridMove 30s linear infinite;
+
+opacity:.35;
+
+}
+
+@keyframes gridMove{
+
+0%{
+
+transform:translate(0,0);
+
+}
+
+100%{
+
+transform:translate(80px,80px);
+
+}
+
+}
+
+.background-glow{
+
+width:700px;
+
+height:700px;
+
+border-radius:50%;
+
+filter:blur(180px);
+
+opacity:.18;
+
+}
+
+.background-glow-1{
+
+top:-250px;
+
+left:-150px;
+
+background:#00cfff;
+
+animation:glow1 15s ease-in-out infinite alternate;
+
+}
+
+.background-glow-2{
+
+right:-250px;
+
+bottom:-250px;
+
+background:#0044ff;
+
+animation:glow2 18s ease-in-out infinite alternate;
+
+}
+
+@keyframes glow1{
+
+from{
+
+transform:translate(0,0);
+
+}
+
+to{
+
+transform:translate(150px,80px);
+
+}
+
+}
+
+@keyframes glow2{
+
+from{
+
+transform:translate(0,0);
+
+}
+
+to{
+
+transform:translate(-150px,-120px);
+
+}
+
+}
+
+.background-stars{
+
+background-image:
+
+radial-gradient(circle,#ffffff 1px,transparent 1px);
+
+background-size:70px 70px;
+
+opacity:.2;
+
+animation:starsMove 60s linear infinite;
+
+}
+
+@keyframes starsMove{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+100%{
+
+transform:translateY(-70px);
+
+}
+
+}
+
+/* ============================= */
+/* TAS Nadeo Logo                */
+/* ============================= */
+
+.tas-logo {
+  animation: logoFloat 6s ease-in-out infinite;
+  filter:
+    drop-shadow(0 0 8px rgba(0, 0, 0, 0.267))
+    drop-shadow(0 0 20px rgba(255, 255, 255, 0.45))
+    drop-shadow(0 0 55px rgba(255, 255, 255, 0.3));
+  transition:
+    transform .35s ease,
+    filter .35s ease;
+  will-change: transform;
+}
+
+.tas-logo:hover {
+  transform: scale(1.03);
+  filter:
+    drop-shadow(0 0 18px rgba(0,220,255,.65))
+    drop-shadow(0 0 45px rgba(0,180,255,.45));
+}
+
+@keyframes logoFloat {
+
+  0% {
+    transform: translateY(0px);
   }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ======================================== */
+/* Animated Logo Glow                       */
+/* ======================================== */
+
+.logo-glow {
+  position: absolute;
+
+  width: 750px;
+  height: 260px;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 999px;
+
+  background:
+    radial-gradient(
+      ellipse,
+      rgba(0,195,255,.35) 0%,
+      rgba(0,150,255,.18) 30%,
+      rgba(0,120,255,.08) 60%,
+      transparent 50%
+    );
+
+  filter: blur(60px);
+
+  animation:
+    glowPulse 5s ease-in-out infinite;
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+@keyframes glowPulse {
+
+  0% {
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: .65;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.10);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(.95);
+    opacity: .65;
+  }
+
+}
+
+/* ============================ */
+/* Search                       */
+/* ============================ */
+
+.search-box{
+
+    width:min(450px,45vw);
+
+    height:40px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:0 26px;
+
+    border-radius:22px;
+
+    background:rgba(15,15,20,.55);
+
+    backdrop-filter:blur(22px);
+
+    border:1px solid rgba(0,200,255,.15);
+
+    transition:.35s;
+
+    box-shadow:
+    0 0 40px rgba(0,180,255,.06);
+
+}
+
+.search-box:hover{
+
+    border-color:rgba(0,220,255,.35);
+
+    box-shadow:
+    0 0 50px rgba(0,220,255,.15);
+
+}
+
+.search-box:focus-within{
+
+    border-color:#38d7ff;
+
+    box-shadow:
+    0 0 55px rgba(0,220,255,.22);
+
+}
+
+.search-input{
+
+    width:100%;
+
+    background:transparent;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    font-size:22px;
+
+    font-family:var(--font-teko);
+
+    letter-spacing:.04em;
+
+}
+
+.search-input::placeholder{
+
+    color:#7e8d98;
+
+}
+
+.search-icon{
+
+    width:30px;
+
+    height:30px;
+
+    color:#38d7ff;
+
+    flex-shrink:0;
+
 }

@@ -1,0 +1,340 @@
+[
+  {
+    "name": "Open",
+    "entries": [
+      {
+        "record": "22.26",
+        "authors": [
+          "CrizpyCheese",
+          "plastorex",
+          "gingerroar",
+          "mufattmf"
+        ],
+        "date": "2024-03-01"
+      },
+      {
+        "record": "23.09",
+        "authors": [
+          "CrizpyCheese"
+        ],
+        "date": "2022-12-24"
+      },
+      {
+        "record": "23.43",
+        "authors": [
+          "andi",
+          "Shweetz"
+        ],
+        "date": "2021-09-24"
+      },
+      {
+        "record": "23.58",
+        "authors": [
+          "andi"
+        ],
+        "date": "2021-09-04"
+      },
+      {
+        "record": "20.6",
+        "authors": [
+          "igntuL",
+          "mufattmf",
+          "didiking"
+        ],
+        "date": "2024-07-05"
+      },
+      {
+        "record": "32.67",
+        "authors": [
+          "goldenowl"
+        ],
+        "date": "2024-07-05"
+      },
+      {
+        "record": "34.8",
+        "authors": [
+          "lukalyc",
+          "threadd"
+        ],
+        "date": "2024-03-02"
+      },
+      {
+        "record": "35.38",
+        "authors": [
+          "Statikk",
+          "Gl1tch3D",
+          "Molosii"
+        ],
+        "date": "2022-04-22"
+      },
+      {
+        "record": "36.51",
+        "authors": [
+          "Gl1tch3D",
+          "Molosii",
+          "Miku"
+        ],
+        "date": "2022-04-21"
+      },
+      {
+        "record": "27.58",
+        "authors": [
+          "BdcapTAS",
+          "Lukalyc"
+        ],
+        "date": "2026-02-14"
+      },
+      {
+        "record": "28.57",
+        "authors": [
+          "Lukalyc",
+          "threadd"
+        ],
+        "date": "2023-09-13"
+      },
+      {
+        "record": "29.67",
+        "authors": [
+          "threadd",
+          "Explt"
+        ],
+        "date": "2023-02-16"
+      },
+      {
+        "record": "45.02",
+        "authors": [
+          "trabadia",
+          "ezmTAS"
+        ],
+        "date": "2024-04-22"
+      }
+    ]
+  },
+  {
+    "name": "No Uber",
+    "entries": [
+      {
+        "record": "23.87",
+        "authors": [
+          "BdcapTAS",
+          "CrizpyCheese"
+        ],
+        "date": "2026-01-15"
+      },
+      {
+        "record": "24.04",
+        "authors": [
+          "andi",
+          "Shweetz",
+          "Virtuoso"
+        ],
+        "date": "2022-02-17"
+      },
+      {
+        "record": "24.05",
+        "authors": [
+          "andi"
+        ],
+        "date": "2021-09-04"
+      },
+      {
+        "record": "24.06",
+        "authors": [
+          "andi",
+          "Shweetz",
+          "Virtuoso"
+        ],
+        "date": "2022-02-17"
+      },
+      {
+        "record": "24.25",
+        "authors": [
+          "plastorex"
+        ],
+        "date": "2021-06-20"
+      },
+      {
+        "record": "37.95",
+        "authors": [
+          "threadd"
+        ],
+        "date": "2022-04-21"
+      },
+      {
+        "record": "38.14",
+        "authors": [
+          "Trinity",
+          "Alex"
+        ],
+        "date": "2021-07-07"
+      },
+      {
+        "record": "38.39",
+        "authors": [
+          "plastorex"
+        ],
+        "date": "2021-06-19"
+      }
+    ]
+  },
+  {
+    "name": "WR Route",
+    "entries": [
+      {
+        "record": "24.15",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2022-07-07"
+      },
+      {
+        "record": "24.17",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2022-03-22"
+      },
+      {
+        "record": "24.29",
+        "authors": [
+          "MasnySunshine"
+        ],
+        "date": "2021-07-05"
+      },
+      {
+        "record": "24.3",
+        "authors": [
+          "lambda"
+        ],
+        "date": "2021-06-05"
+      }
+    ]
+  },
+  {
+    "name": "No Cut",
+    "entries": [
+      {
+        "record": "24.19",
+        "authors": [
+          "trabadia",
+          "Thunder"
+        ],
+        "date": "2025-08-22"
+      },
+      {
+        "record": "24.2",
+        "authors": [
+          "Thunder"
+        ],
+        "date": "2024-09-09"
+      },
+      {
+        "record": "24.24",
+        "authors": [
+          "Thunder"
+        ],
+        "date": "2024-09-09"
+      },
+      {
+        "record": "38.39",
+        "authors": [
+          "Bunji"
+        ],
+        "date": "2023-11-10"
+      },
+      {
+        "record": "38.44",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-03"
+      },
+      {
+        "record": "46.15",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2024-04-06"
+      },
+      {
+        "record": "46.33",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-03"
+      }
+    ]
+  },
+  {
+    "name": "RTA",
+    "entries": [
+      {
+        "record": "24.31",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2024-08-01"
+      },
+      {
+        "record": "38.48",
+        "authors": [
+          "Almighty Hefest"
+        ],
+        "date": "2023-12-21"
+      },
+      {
+        "record": "46.67",
+        "authors": [
+          "Wave.Ðemon"
+        ],
+        "date": "2024-09-24"
+      }
+    ]
+  },
+  {
+    "name": "RTA-NC",
+    "entries": [
+      {
+        "record": "24.41",
+        "authors": [
+          "Fwo.Link"
+        ],
+        "date": "2024-09-06"
+      }
+    ]
+  },
+  {
+    "name": "NOseboost",
+    "entries": [
+      {
+        "record": "33.28",
+        "authors": [
+          "Oogy749"
+        ],
+        "date": "2026-02-24"
+      },
+      {
+        "record": "40.17",
+        "authors": [
+          "Oogy749"
+        ],
+        "date": "2026-02-09"
+      },
+      {
+        "record": "43.2",
+        "authors": [
+          "AurisTFG",
+          "G-Star"
+        ],
+        "date": "2021-11-18"
+      },
+      {
+        "record": "43.73",
+        "authors": [
+          "G-Star"
+        ],
+        "date": "2021-06-08"
+      }
+    ]
+  }
+]

@@ -1,6 +1,10 @@
 import { getTrack } from "@/lib/tracks";
 import { getHistory } from "@/lib/history";
 
+import TrackInfo from "@/components/track/TrackInfo";
+import TrackImage from "@/components/track/TrackImage";
+import TrackHistory from "@/components/track/TrackHistory";
+
 type Props = {
   params: Promise<{
     game: string;
@@ -16,7 +20,7 @@ export default async function TrackPage({ params }: Props) {
 
   if (!data) {
     return (
-      <main className="min-h-screen bg-black p-10 text-white">
+      <main className="min-h-screen bg-[#0d1117] p-10 text-white">
         <h1 className="text-4xl font-bold">
           Track not found
         </h1>
@@ -25,75 +29,26 @@ export default async function TrackPage({ params }: Props) {
   }
 
   return (
-    <main className="min-h-screen bg-black p-10 text-white">
+    <main className="min-h-screen bg-[#0d1117] p-10 text-white">
 
-      <h1 className="text-5xl font-bold mb-6">
-        {data.id}
-      </h1>
+      <div className="mx-auto max-w-7xl space-y-8">
 
-      <div className="rounded-xl bg-zinc-900 p-6 space-y-2">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
 
-        <p>
-          <strong>TAS Time:</strong> {data.tasTime}
-        </p>
+          <div className="lg:col-span-2">
+            <TrackInfo
+              id={data.id}
+              tas={data.tas}
+            />
+          </div>
 
-        <p>
-          <strong>Saved:</strong> {data.saved}
-        </p>
+          <TrackImage />
 
-        <p>
-          <strong>Authors:</strong> {data.authors.join(", ")}
-        </p>
+        </div>
 
-        <p>
-          <strong>Date:</strong> {data.date}
-        </p>
+        <TrackHistory history={history} />
 
       </div>
-
-      <section className="mt-10">
-
-        <h2 className="mb-4 text-3xl font-bold">
-          History
-        </h2>
-
-        {history.length === 0 ? (
-          <p className="text-zinc-400">
-            No history available.
-          </p>
-        ) : (
-          history.map((category) => (
-            <div
-              key={category.name}
-              className="mb-8 rounded-xl bg-zinc-900 p-5"
-            >
-              <h3 className="mb-4 text-2xl font-bold text-blue-400">
-                {category.name}
-              </h3>
-
-              {category.entries.map((entry, index) => (
-                <div
-                  key={index}
-                  className="mb-3 border-l-2 border-blue-500 pl-4"
-                >
-                  <p>
-                    <strong>{entry.record}</strong>
-                  </p>
-
-                  <p>
-                    {entry.authors.join(", ")}
-                  </p>
-
-                  <p className="text-zinc-400">
-                    {entry.date}
-                  </p>
-                </div>
-              ))}
-            </div>
-          ))
-        )}
-
-      </section>
 
     </main>
   );

@@ -10,7 +10,461 @@
           "trabadia",
           "Lukalyc"
         ],
-        "date": "22-Jul-23"
+        "date": "2023-07-22"
+      },
+      {
+        "record": "18.37",
+        "authors": [
+          "igntuL",
+          "Na'Guul",
+          "trabadia"
+        ],
+        "date": "2021-09-19"
+      },
+      {
+        "record": "22.05",
+        "authors": [
+          "didiking",
+          "mufattmf",
+          "BdcapTAS"
+        ],
+        "date": "2026-02-27"
+      },
+      {
+        "record": "22.12",
+        "authors": [
+          "didiking",
+          "mufattmf"
+        ],
+        "date": "2024-05-31"
+      },
+      {
+        "record": "22.29",
+        "authors": [
+          "didiking",
+          "ezmTAS"
+        ],
+        "date": "2024-05-31"
+      },
+      {
+        "record": "18.73",
+        "authors": [
+          "mufattmf",
+          "igntuL"
+        ],
+        "date": "2024-02-24"
+      },
+      {
+        "record": "18.07",
+        "authors": [
+          "threadd",
+          "Virtuoso"
+        ],
+        "date": "2023-07-29"
+      },
+      {
+        "record": "19.11",
+        "authors": [
+          "threadd"
+        ],
+        "date": "2024-07-27"
+      },
+      {
+        "record": "23.1",
+        "authors": [
+          "Virtuoso",
+          "igntuL",
+          "ins"
+        ],
+        "date": "2021-09-10"
+      },
+      {
+        "record": "24.69",
+        "authors": [
+          "Virtuoso",
+          "igntul",
+          "ins"
+        ],
+        "date": "2021-09-10"
+      },
+      {
+        "record": "25.92",
+        "authors": [
+          "Virtuoso",
+          "igntul",
+          "ins"
+        ],
+        "date": "2021-09-10"
+      }
+    ]
+  },
+  {
+    "name": "No Uber",
+    "entries": [
+      {
+        "record": "23.48",
+        "authors": [
+          "trabadia",
+          "Gl1tch3d",
+          "emerald_lag",
+          "igntuL",
+          "SaiMoen",
+          "fabi",
+          "cj5716"
+        ],
+        "date": "2025-03-03"
+      },
+      {
+        "record": "23.64",
+        "authors": [
+          "Yosh"
+        ],
+        "date": "2024-12-23"
+      },
+      {
+        "record": "24.83",
+        "authors": [
+          "trabadia",
+          "Jsap"
+        ],
+        "date": "2023-09-08"
+      },
+      {
+        "record": "25.4",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2022-07-14"
+      },
+      {
+        "record": "25.94",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2022-04-20"
+      },
+      {
+        "record": "26.15",
+        "authors": [
+          "Alex"
+        ],
+        "date": "2021-07-19"
+      },
+      {
+        "record": "39.46",
+        "authors": [
+          "Oogy749",
+          "MidnightEuphoria"
+        ],
+        "date": "2026-06-19"
+      },
+      {
+        "record": "39.95",
+        "authors": [
+          "Oogy749",
+          "MidnightEuphoria"
+        ],
+        "date": "2026-06-18"
+      },
+      {
+        "record": "40.62",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2021-08-18"
+      },
+      {
+        "record": "41.98",
+        "authors": [
+          "Mango",
+          "Speedy0407"
+        ],
+        "date": "2021-06-02"
+      },
+      {
+        "record": "42.54",
+        "authors": [
+          "Mango"
+        ],
+        "date": "2021-06-02"
+      },
+      {
+        "record": "43.4",
+        "authors": [
+          "Speedy0407"
+        ],
+        "date": "2020-04-19"
+      }
+    ]
+  },
+  {
+    "name": "No Cut",
+    "entries": [
+      {
+        "record": "23.66",
+        "authors": [
+          "Gl1tch3D",
+          "maB-TM",
+          "CrizpyCheese",
+          "SaiMoen"
+        ],
+        "date": "2023-09-12"
+      },
+      {
+        "record": "23.67",
+        "authors": [
+          "CrizpyCheese",
+          "maB-TM",
+          "SaiMoen",
+          "trabadia"
+        ],
+        "date": "2023-01-04"
+      },
+      {
+        "record": "23.68",
+        "authors": [
+          "trabadia",
+          "mab-TM",
+          "Shweetz",
+          "SaiMoen"
+        ],
+        "date": "2022-08-07"
+      },
+      {
+        "record": "23.7",
+        "authors": [
+          "trabadia",
+          "maB-TM",
+          "Shweetz"
+        ],
+        "date": "2022-03-12"
+      },
+      {
+        "record": "23.71",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2022-01-07"
+      },
+      {
+        "record": "23.72",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2021-06-30"
+      },
+      {
+        "record": "23.74",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2021-06-29"
+      },
+      {
+        "record": "23.75",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2021-06-04"
+      },
+      {
+        "record": "23.78",
+        "authors": [
+          "Kali"
+        ],
+        "date": "2021-06-01"
+      },
+      {
+        "record": "23.79",
+        "authors": [
+          "Kali"
+        ],
+        "date": "2021-06-01"
+      },
+      {
+        "record": "23.8",
+        "authors": [
+          "donadigo"
+        ],
+        "date": "2020-11-25"
+      },
+      {
+        "record": "23.81",
+        "authors": [
+          "donadigo"
+        ],
+        "date": "2020-10-23"
+      },
+      {
+        "record": "25.01",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2024-03-14"
+      },
+      {
+        "record": "25.07",
+        "authors": [
+          "AurisTFG"
+        ],
+        "date": "2021-06-28"
+      },
+      {
+        "record": "25.08",
+        "authors": [
+          "AurisTFG"
+        ],
+        "date": "2021-06-25"
+      },
+      {
+        "record": "25.18",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-04"
+      },
+      {
+        "record": "25.19",
+        "authors": [
+          "Trinity"
+        ],
+        "date": "2021-06-03"
+      },
+      {
+        "record": "25.23",
+        "authors": [
+          "Prow"
+        ],
+        "date": "2021-06-02"
+      },
+      {
+        "record": "26.44",
+        "authors": [
+          "trabadia"
+        ],
+        "date": "2024-03-21"
+      },
+      {
+        "record": "26.49",
+        "authors": [
+          "Djafex",
+          "dimi"
+        ],
+        "date": "2021-06-24"
+      },
+      {
+        "record": "26.51",
+        "authors": [
+          "Djafex",
+          "dimi"
+        ],
+        "date": "2021-06-11"
+      },
+      {
+        "record": "41.91",
+        "authors": [
+          "Oogy749",
+          "MidnightEuphoria"
+        ],
+        "date": "2026-06-18"
+      },
+      {
+        "record": "43.29",
+        "authors": [
+          "Linesight"
+        ],
+        "date": "2024-06-17"
+      },
+      {
+        "record": "43.4",
+        "authors": [
+          "Virtuoso"
+        ],
+        "date": "2021-08-18"
+      }
+    ]
+  },
+  {
+    "name": "RTA",
+    "entries": [
+      {
+        "record": "23.77",
+        "authors": [
+          "Axell"
+        ],
+        "date": "2025-09-16"
+      },
+      {
+        "record": "23.78",
+        "authors": [
+          "Rollin"
+        ],
+        "date": "2025-07-02"
+      },
+      {
+        "record": "25.23",
+        "authors": [
+          "oli10"
+        ],
+        "date": "2024-09-23"
+      },
+      {
+        "record": "26.63",
+        "authors": [
+          "KarjeN"
+        ],
+        "date": "2021-03-09"
+      },
+      {
+        "record": "43.57",
+        "authors": [
+          "Almighty Hefest"
+        ],
+        "date": "2020-07-04"
+      }
+    ]
+  },
+  {
+    "name": "No SD",
+    "entries": [
+      {
+        "record": "23.93",
+        "authors": [
+          "trabadia",
+          "Link"
+        ],
+        "date": "2021-07-01"
+      }
+    ]
+  },
+  {
+    "name": "NOseboost",
+    "entries": [
+      {
+        "record": "24.92",
+        "authors": [
+          "Don Johnson"
+        ],
+        "date": "2022-01-04"
+      },
+      {
+        "record": "38.66",
+        "authors": [
+          "Oogy749"
+        ],
+        "date": "2026-01-10"
+      }
+    ]
+  },
+  {
+    "name": "9 Inputs",
+    "entries": [
+      {
+        "record": "50.96",
+        "authors": [
+          "ben1996123"
+        ],
+        "date": "2023-06-16"
       }
     ]
   }

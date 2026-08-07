@@ -7,29 +7,51 @@ type Props = {
 
 export default function MainLayout({ children }: Props) {
   return (
-    <main className="min-h-screen bg-zinc-950 text-white">
-      <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur">
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+    <main className="relative min-h-screen text-white">
+
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-black/40 backdrop-blur-xl">
+
+        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-8">
+
           <Link
             href="/"
-            className="text-2xl font-bold text-blue-400 hover:text-blue-300"
+            className="title-font text-5xl tracking-[0.18em] text-cyan-300 transition hover:text-white"
           >
-            tas-nadeo
+            TAS NADEO
           </Link>
 
-          <nav className="flex items-center gap-6 text-sm">
-            <Link href="/">Home</Link>
-            <Link href="/games">Games</Link>
-            <Link href="/leaderboard">Leaderboard</Link>
-            <Link href="/tasers">TASers</Link>
-            <Link href="/highlights">Highlights</Link>
+          <nav className="menu-font flex items-center gap-8 text-2xl uppercase tracking-widest">
+
+            <Link href="/" className="hover:text-cyan-300 transition">
+              Home
+            </Link>
+
+            <Link href="/games" className="hover:text-cyan-300 transition">
+              Games
+            </Link>
+
+            <Link href="/leaderboard" className="hover:text-cyan-300 transition">
+              Leaderboard
+            </Link>
+
+            <Link href="/tasers" className="hover:text-cyan-300 transition">
+              TASers
+            </Link>
+
+            <Link href="/highlights" className="hover:text-cyan-300 transition">
+              Highlights
+            </Link>
+
           </nav>
+
         </div>
+
       </header>
 
-      <div className="mx-auto max-w-7xl p-6">
+      <div className="mx-auto max-w-7xl px-8 py-10">
         {children}
       </div>
+
     </main>
   );
 }

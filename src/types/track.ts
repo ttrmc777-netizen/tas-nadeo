@@ -1,11 +1,7 @@
 import { HistoryCategory } from "./history";
 
-export interface Track {
-  id: string;
-
-  name?: string;
-
-  tasTime: string;
+export interface TrackTAS {
+  time: string;
 
   saved: string;
 
@@ -13,11 +9,33 @@ export interface Track {
 
   date: string;
 
-  replay: boolean;
+  video?: string;
 
-  inputs: boolean;
+  replay?: string;
 
-  video?: string | null;
+  inputs?: string;
+}
+
+export interface WRRecord {
+  time: string;
+
+  authors: string[];
+
+  date: string;
+}
+
+export interface Track {
+  id: string;
+
+  name?: string;
+
+  tmxId?: number;
+
+  image?: string;
+
+  tas: TrackTAS;
+
+  wr?: WRRecord;
 
   history?: HistoryCategory[];
 

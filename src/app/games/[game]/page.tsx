@@ -1,6 +1,7 @@
 import TrackCard from "@/components/cards/TrackCard";
 
 import { getGame } from "@/lib/games";
+import { Track } from "@/types/track";
 
 type Props = {
   params: Promise<{
@@ -15,6 +16,7 @@ export default async function GamePage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-black p-10 text-white">
+
       <h1 className="mb-8 text-5xl font-bold">
         {game.toUpperCase()}
       </h1>
@@ -24,18 +26,17 @@ export default async function GamePage({ params }: Props) {
       </p>
 
       <div className="space-y-4">
-        {tracks.map((track: any) => (
+
+        {tracks.map((track: Track) => (
           <TrackCard
-    key={track.id}
-    game={game}
-    id={track.id}
-    tasTime={track.tasTime}
-    saved={track.saved}
-    authors={track.authors}
-    date={track.date}
-/>
+            key={track.id}
+            game={game}
+            track={track}
+          />
         ))}
+
       </div>
+
     </main>
   );
 }
