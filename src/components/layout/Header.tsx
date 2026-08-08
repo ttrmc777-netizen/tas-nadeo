@@ -27,17 +27,11 @@ export default function Header({
   }, []);
 
   return (
-
-    <div className={scrolled ? "header-small" : "header-large"}>
-
-      <MainLayout>
-
-        {children}
-
-      </MainLayout>
-
-    </div>
-
-  );
+  <div className={scrolled ? "header-scrolled" : ""}>
+    <MainLayout>
+      {children}
+    </MainLayout>
+  </div>
+);
 
 }

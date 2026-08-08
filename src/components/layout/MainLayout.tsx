@@ -23,9 +23,52 @@ export default function MainLayout({ children }: Props) {
 
         <div className="header-inner">
 
-          <button className="menu-button">
-            ☰
-          </button>
+          <div className="navbar-menu-wrapper">
+
+    <button
+      className="menu-button"
+      aria-label="Open menu"
+    >
+      ☰
+    </button>
+
+    <div className="navbar-dropdown">
+
+      <Link
+        href="/about"
+        className="dropdown-link"
+      >
+        <span>01</span>
+        ABOUT
+      </Link>
+
+      <Link
+        href="/inputs"
+        className="dropdown-link"
+      >
+        <span>02</span>
+        INPUTS
+      </Link>
+
+      <Link
+        href="/tasers/search"
+        className="dropdown-link"
+      >
+        <span>03</span>
+        SEARCH TASERS
+      </Link>
+
+      <Link
+        href="/ideas"
+        className="dropdown-link"
+      >
+        <span>04</span>
+        IDEA ZONE
+      </Link>
+
+    </div>
+
+         </div>
 
           <Link
             href="/"
